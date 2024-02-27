@@ -1,5 +1,17 @@
+@import "@/app/constsns.scss";
+
 .active {
-  color: #3673fd;
+  color: $bgSoft;
+  font-weight: 800;
+  border: 1px solid $white;
+  padding: 5px 12px;
+  border-radius: 15px;
+  background-color: $white;
+  text-decoration: none;
+
+  @media screen and (max-width: 900px) {
+    padding: 5px 10px;
+  }
 }
 
 .default {
